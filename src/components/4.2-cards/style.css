@@ -1,0 +1,19 @@
+.all{
+    border: 5px solid green;
+    width: 20.5vw;
+    text-align: center;
+    margin: 10px auto;
+    background: rgb(192, 192, 192);
+}
+.title{
+    font-weight: bold;
+    padding: 10px;
+}
+.description{
+    font-weight: 400;
+    padding: 10px;
+}
+.link1,
+.link2{
+    padding: 2% 5%;
+}
