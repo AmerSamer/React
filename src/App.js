@@ -1,14 +1,16 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import Box1 from './components/3.1-boxes/Box1'
+// import Box1 from './components/3.1-boxes/Box1'
+
+import Quiz from './components/3.2-quiz/Quiz'
 
 function App() {
 
   return (
     <div>
-      <Box1/>
-      
+      {/* <Box1/> */}
+      <Quiz/>
     </div>
   )
   //   <div className="App">
