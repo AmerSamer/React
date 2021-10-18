@@ -12,7 +12,9 @@
 // import Img2 from './components/4.2-cards/italy.jpg';
 // import Img3 from './components/4.2-cards/france.jpg';
 
-import Counter from './components/7.1-increment/Counter'
+// import Counter from './components/7.1-increment/Counter'
+import HideSeek from './components/7.2-hide_seek/HideSeek'
+
 function App() {
 
   return (
@@ -30,7 +32,8 @@ function App() {
       <Cards img={Img3} title="France"  description="France, officially the French Republic (French: République française)"
       link1='France Website' link2='France Wiki' link1href='https://www.gouvernement.fr/en/news' link2href='https://en.wikipedia.org/wiki/France'
       /> */}
-    <Counter/>
+    {/* <Counter/> */}
+    <HideSeek/>
     </div>
   )
 }
