@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import Box1 from './components/3.1-boxes/Box1'
+// import Box1 from './components/3.1-boxes/Box1'
 
 // import Quiz from './components/3.2-quiz/Quiz'
 
@@ -11,11 +11,13 @@ import Box1 from './components/3.1-boxes/Box1'
 // import Img1 from './components/4.2-cards/spain.jpg';
 // import Img2 from './components/4.2-cards/italy.jpg';
 // import Img3 from './components/4.2-cards/france.jpg';
+
+import Counter from './components/7.1-increment/Counter'
 function App() {
 
   return (
     <div>
-      <Box1 />
+      {/* <Box1 /> */}
       {/* <Quiz/> */}
       {/* <Buttons name="Important" fontWeight= 'bold'/>
       <Buttons name="Not Important" fontWeight= 'normal' /> */}
@@ -28,7 +30,7 @@ function App() {
       <Cards img={Img3} title="France"  description="France, officially the French Republic (French: République française)"
       link1='France Website' link2='France Wiki' link1href='https://www.gouvernement.fr/en/news' link2href='https://en.wikipedia.org/wiki/France'
       /> */}
-
+    <Counter/>
     </div>
   )
 }
