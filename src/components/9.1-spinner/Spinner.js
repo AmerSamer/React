@@ -1,15 +1,15 @@
 import React from 'react';
 import './style.css';
 
-// let items = [{ one: 'ui active dimmer', two: 'ui big text loader' },
-//     { one: "ui active inverted dimmer", two: 'ui big text loader' }];
-// let item = items[Math.floor(Math.random() * items.length)];
+let items = [{ one: 'ui active dimmer', two: 'ui big text loader' },
+    { one: "ui active inverted dimmer", two: 'ui big text loader' }];
+let item = items[Math.floor(Math.random() * items.length)];
 
 class Spinner extends React.Component {
     constructor(props) {
         super(props);
         this.props = props;
-        this.state = { firstClass: `ui active dimmer`, secondClass: `ui big text loader` }
+        this.state = { firstClass: `${item.one}`, secondClass: `${item.two}` }
     }
 
     componentDidMount() {
@@ -22,7 +22,6 @@ class Spinner extends React.Component {
         document.body.innerHTML = 'Your Data...';
     }
 
-    
     render() {
         return (
             <div className={this.state.firstClass}>
