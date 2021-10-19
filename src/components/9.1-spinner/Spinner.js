@@ -21,6 +21,8 @@ class Spinner extends React.Component {
     componentDidUpdate() {
         document.body.innerHTML = 'Your Data...';
     }
+
+    
     render() {
         return (
             <div className={this.state.firstClass}>
