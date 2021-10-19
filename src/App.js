@@ -13,7 +13,9 @@
 // import Img3 from './components/4.2-cards/france.jpg';
 
 // import Counter from './components/7.1-increment/Counter'
-import HideSeek from './components/7.2-hide_seek/HideSeek'
+// import HideSeek from './components/7.2-hide_seek/HideSeek'
+
+import Color from './components/8.1-life_cycle_methods/Color'
 
 function App() {
 
@@ -33,7 +35,8 @@ function App() {
       link1='France Website' link2='France Wiki' link1href='https://www.gouvernement.fr/en/news' link2href='https://en.wikipedia.org/wiki/France'
       /> */}
     {/* <Counter/> */}
-    <HideSeek/>
+    {/* <HideSeek/> */}
+    <Color/> 
     </div>
   )
 }
