@@ -16,7 +16,8 @@
 // import HideSeek from './components/7.2-hide_seek/HideSeek'
 
 // import Color from './components/8.1-life_cycle_methods/Color'
-import BoxAnimation from './components/8.2-box_animation/BoxAnimation'
+// import BoxAnimation from './components/8.2-box_animation/BoxAnimation'
+import ChangeBox from './components/8.3-changing_box/ChangeBox'
 
 function App() {
 
@@ -38,9 +39,10 @@ function App() {
       {/* <Counter/> */}
       {/* <HideSeek/> */}
       {/* <Color/>  */}
-      <BoxAnimation size='50px'/>
+      {/* <BoxAnimation size='50px'/>
       <BoxAnimation size='80px'/>
-      <BoxAnimation size='30px'/>
+      <BoxAnimation size='30px'/> */}
+      <ChangeBox />
     </div>
   )
 }
