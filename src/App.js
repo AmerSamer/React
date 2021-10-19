@@ -19,7 +19,9 @@
 // import BoxAnimation from './components/8.2-box_animation/BoxAnimation'
 // import ChangeBox from './components/8.3-changing_box/ChangeBox'
 
-import Spinner from './components/9.1-spinner/Spinner'
+// import Spinner from './components/9.1-spinner/Spinner'
+
+import ChuckNorris from "./components/12.1-chuck_norris/ChuckNorris";
 
 function App() {
   return (
@@ -44,10 +46,8 @@ function App() {
       <BoxAnimation size='80px'/>
       <BoxAnimation size='30px'/> */}
       {/* <ChangeBox /> */}
-      
-        
-      <Spinner message='Loading...'/>
-        
+      {/* <Spinner message='Loading...'/> */}
+      <ChuckNorris />
    
       
     </div>

@@ -1,0 +1,11 @@
+body{
+    margin: 1%;
+}
+.s{
+    width: 50vw;
+}
+input{
+    margin: 0.5%;
+    width: 5vw;
+    height: 5vh;
+}
