@@ -15,7 +15,8 @@
 // import Counter from './components/7.1-increment/Counter'
 // import HideSeek from './components/7.2-hide_seek/HideSeek'
 
-import Color from './components/8.1-life_cycle_methods/Color'
+// import Color from './components/8.1-life_cycle_methods/Color'
+import BoxAnimation from './components/8.2-box_animation/BoxAnimation'
 
 function App() {
 
@@ -34,9 +35,12 @@ function App() {
       <Cards img={Img3} title="France"  description="France, officially the French Republic (French: République française)"
       link1='France Website' link2='France Wiki' link1href='https://www.gouvernement.fr/en/news' link2href='https://en.wikipedia.org/wiki/France'
       /> */}
-    {/* <Counter/> */}
-    {/* <HideSeek/> */}
-    <Color/> 
+      {/* <Counter/> */}
+      {/* <HideSeek/> */}
+      {/* <Color/>  */}
+      <BoxAnimation size='50px'/>
+      <BoxAnimation size='80px'/>
+      <BoxAnimation size='30px'/>
     </div>
   )
 }
