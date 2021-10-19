@@ -17,10 +17,11 @@
 
 // import Color from './components/8.1-life_cycle_methods/Color'
 // import BoxAnimation from './components/8.2-box_animation/BoxAnimation'
-import ChangeBox from './components/8.3-changing_box/ChangeBox'
+// import ChangeBox from './components/8.3-changing_box/ChangeBox'
+
+import Spinner from './components/9.1-spinner/Spinner'
 
 function App() {
-
   return (
     <div>
       {/* <Box1 /> */}
@@ -42,7 +43,13 @@ function App() {
       {/* <BoxAnimation size='50px'/>
       <BoxAnimation size='80px'/>
       <BoxAnimation size='30px'/> */}
-      <ChangeBox />
+      {/* <ChangeBox /> */}
+      
+        
+      <Spinner message='Loading...'/>
+        
+   
+      
     </div>
   )
 }

@@ -1,0 +1,8 @@
+body{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    font-size: 50px;
+}
