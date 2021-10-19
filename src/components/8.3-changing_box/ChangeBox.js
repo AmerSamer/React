@@ -18,13 +18,13 @@ class ChangeBox extends React.Component {
 
     componentDidMount() {
         for (let i = 0; i < 100 ; i++) {
-            if(i < 2){
-                j = j + 2000
+            if(i < 4){
+                j = j + 1000
                 setTimeout(() => {
                     this.setState({ box: 'box1' })
                 }, j);
             }else{
-                j = j + 2000
+                j = j + 1000
                 setTimeout(() => {
                     this.setState({ box: 'circle1' })
                 }, j);

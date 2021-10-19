@@ -1,15 +1,11 @@
 .box1{
-    width: 100px;
-    height: 100px;
-    /* background: rgb(0, 0, 255); */
+    width: 500px;
+    height: 500px;
     margin: 10px;
 }
 .circle1{
-        height: 100px;
-        width: 100px;
+        height: 500px;
+        width: 500px;
         margin: 10px;
-        /* background-color: #bbb; */
         border-radius: 50%;
-        display: inline-block;
-      
 }
