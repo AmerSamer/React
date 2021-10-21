@@ -20,7 +20,10 @@
 // import ChangeBox from './components/8.3-changing_box/ChangeBox'
 
 // import Spinner from './components/9.1-spinner/Spinner'
-import ParentColor from "./components/11.1-child-_to_parent_color/ParentColor";
+
+// import ParentColor from "./components/11.1-child-_to_parent_color/ParentColor";
+import CheckBox from "./components/11.2-checkBox/CheckBox";
+
 // import ChuckNorris from "./components/12.1-chuck_norris/ChuckNorris";
 
 function App() {
@@ -49,7 +52,8 @@ function App() {
       {/* <Spinner message='Loading...'/> */}
       {/* <ChuckNorris /> */}
       
-      <ParentColor />
+      {/* <ParentColor /> */}
+      <CheckBox />
     </div>
   )
 }
