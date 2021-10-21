@@ -22,8 +22,8 @@
 // import Spinner from './components/9.1-spinner/Spinner'
 
 // import ParentColor from "./components/11.1-child-_to_parent_color/ParentColor";
-import CheckBox from "./components/11.2-checkBox/CheckBox";
-
+// import CheckBox from "./components/11.2-checkBox/CheckBox";
+import NameForm from "./components/test/Test";
 // import ChuckNorris from "./components/12.1-chuck_norris/ChuckNorris";
 
 function App() {
@@ -53,7 +53,8 @@ function App() {
       {/* <ChuckNorris /> */}
       
       {/* <ParentColor /> */}
-      <CheckBox />
+      {/* <CheckBox /> */}
+      <NameForm />
     </div>
   )
 }
