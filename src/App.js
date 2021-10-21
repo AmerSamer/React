@@ -20,8 +20,8 @@
 // import ChangeBox from './components/8.3-changing_box/ChangeBox'
 
 // import Spinner from './components/9.1-spinner/Spinner'
-
-import ChuckNorris from "./components/12.1-chuck_norris/ChuckNorris";
+import ParentColor from "./components/11.1-child-_to_parent_color/ParentColor";
+// import ChuckNorris from "./components/12.1-chuck_norris/ChuckNorris";
 
 function App() {
   return (
@@ -47,9 +47,9 @@ function App() {
       <BoxAnimation size='30px'/> */}
       {/* <ChangeBox /> */}
       {/* <Spinner message='Loading...'/> */}
-      <ChuckNorris />
-   
+      {/* <ChuckNorris /> */}
       
+      <ParentColor />
     </div>
   )
 }
