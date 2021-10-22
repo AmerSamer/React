@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
+import React from 'react';
 
 // import Box1 from './components/3.1-boxes/Box1'
 
@@ -23,7 +24,8 @@
 
 // import ParentColor from "./components/11.1-child-_to_parent_color/ParentColor";
 // import CheckBox from "./components/11.2-checkBox/CheckBox";
-import NameForm from "./components/test/Test";
+import NameForm from "./components/11.3-form_Review/Form";
+
 // import ChuckNorris from "./components/12.1-chuck_norris/ChuckNorris";
 
 function App() {
@@ -55,6 +57,7 @@ function App() {
       {/* <ParentColor /> */}
       {/* <CheckBox /> */}
       <NameForm />
+      
     </div>
   )
 }
