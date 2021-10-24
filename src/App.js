@@ -24,9 +24,11 @@ import React from 'react';
 
 // import ParentColor from "./components/11.1-child-_to_parent_color/ParentColor";
 // import CheckBox from "./components/11.2-checkBox/CheckBox";
-import NameForm from "./components/11.3-form_Review/Form";
+// import NameForm from "./components/11.3-form_Review/Form";
 
 // import ChuckNorris from "./components/12.1-chuck_norris/ChuckNorris";
+
+import Data from './components/13.1-react-data-messaging/Data';
 
 function App() {
   return (
@@ -56,7 +58,8 @@ function App() {
       
       {/* <ParentColor /> */}
       {/* <CheckBox /> */}
-      <NameForm />
+      {/* <NameForm /> */}
+      <Data />
       
     </div>
   )
