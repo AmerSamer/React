@@ -28,7 +28,8 @@ import React from 'react';
 
 // import ChuckNorris from "./components/12.1-chuck_norris/ChuckNorris";
 
-import Data from './components/13.1-react-data-messaging/Data';
+// import Data from './components/13.1-react-data-messaging/Data';
+import Avatar from './components/13.2-avatar/Avatar';
 
 function App() {
   return (
@@ -59,8 +60,8 @@ function App() {
       {/* <ParentColor /> */}
       {/* <CheckBox /> */}
       {/* <NameForm /> */}
-      <Data />
-      
+      {/* <Data /> */}
+      <Avatar />
     </div>
   )
 }
