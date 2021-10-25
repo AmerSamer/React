@@ -31,8 +31,8 @@ import React from 'react';
 // import Data from './components/13.1-react-data-messaging/Data';
 // import Avatar from './components/13.2-avatar/Avatar';
 
-import Parent from './components/18.1-text/Parent';
-
+// import Parent from './components/18.1-text/Parent';
+import Todo from './components/18.2-simple_todo/Todo';
 function App() {
   return (
     <div>
@@ -64,8 +64,8 @@ function App() {
       {/* <NameForm /> */}
       {/* <Data /> */}
       {/* <Avatar /> */}
-      <Parent />
-
+      {/* <Parent /> */}
+      <Todo />
     </div>
   )
 }
