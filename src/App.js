@@ -33,6 +33,7 @@ import React from 'react';
 
 // import Parent from './components/18.1-text/Parent';
 import Todo from './components/18.2-simple_todo/Todo';
+
 function App() {
   return (
     <div>
