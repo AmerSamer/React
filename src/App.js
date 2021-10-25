@@ -29,7 +29,9 @@ import React from 'react';
 // import ChuckNorris from "./components/12.1-chuck_norris/ChuckNorris";
 
 // import Data from './components/13.1-react-data-messaging/Data';
-import Avatar from './components/13.2-avatar/Avatar';
+// import Avatar from './components/13.2-avatar/Avatar';
+
+import Parent from './components/18.1-text/Parent';
 
 function App() {
   return (
@@ -61,7 +63,9 @@ function App() {
       {/* <CheckBox /> */}
       {/* <NameForm /> */}
       {/* <Data /> */}
-      <Avatar />
+      {/* <Avatar /> */}
+      <Parent />
+
     </div>
   )
 }
