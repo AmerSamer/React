@@ -32,7 +32,8 @@ import React from 'react';
 // import Avatar from './components/13.2-avatar/Avatar';
 
 // import Parent from './components/18.1-text/Parent';
-import Todo from './components/18.2-simple_todo/Todo';
+// import Todo from './components/18.2-simple_todo/Todo';
+import MarkDelete from './components/18.4-mark_delete/MarkDelete';
 
 function App() {
   return (
@@ -66,7 +67,8 @@ function App() {
       {/* <Data /> */}
       {/* <Avatar /> */}
       {/* <Parent /> */}
-      <Todo />
+      {/* <Todo /> */}
+      <MarkDelete />
     </div>
   )
 }
