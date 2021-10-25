@@ -33,7 +33,8 @@ import React from 'react';
 
 // import Parent from './components/18.1-text/Parent';
 // import Todo from './components/18.2-simple_todo/Todo';
-import MarkDelete from './components/18.4-mark_delete/MarkDelete';
+// import MarkDelete from './components/18.4-mark_delete/MarkDelete';
+import SimpleFetch from './components/19.1-simple_fetch/SimpleFetch';
 
 function App() {
   return (
@@ -68,7 +69,8 @@ function App() {
       {/* <Avatar /> */}
       {/* <Parent /> */}
       {/* <Todo /> */}
-      <MarkDelete />
+      {/* <MarkDelete /> */}
+      < SimpleFetch/>
     </div>
   )
 }
