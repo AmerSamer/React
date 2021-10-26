@@ -36,7 +36,8 @@ import React from 'react';
 // import MarkDelete from './components/18.4-mark_delete/MarkDelete';
 
 // import SimpleFetch from './components/19.1-simple_fetch/SimpleFetch';
-import CountriesWorld from './components/19.2-countries/CountriesWorld';
+// import CountriesWorld from './components/19.2-countries/CountriesWorld';
+import Algolia from './components/Algolia/Algolia'
 
 function App() {
   return (
@@ -73,7 +74,8 @@ function App() {
       {/* <Todo /> */}
       {/* <MarkDelete /> */}
       {/* < SimpleFetch/> */}
-      <CountriesWorld/>
+      {/* <CountriesWorld/> */}
+      <Algolia />
     </div>
   )
 }
