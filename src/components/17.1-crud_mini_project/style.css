@@ -1,0 +1,32 @@
+body{
+    margin: 1%;
+    /* background: black; */
+    background: url('./background.jpg') no-repeat center center/cover;
+
+}
+.styling{
+    text-align: center;
+    font-size: 20px;
+    /* border: rgb(66, 72, 94) 2px solid;
+    width: 96vw;
+    color: white;  */
+}
+.remove{
+    background: rgb(41, 1, 1);
+    color: #fff;
+}
+.inputs{
+    text-align: center;
+}
+#grid {
+    margin: 2%;
+    display: grid;
+    height: 200px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 20px 20px;
+  }
+  
+  #grid > div {
+    /* border: 3px solid rgb(37, 21, 95); */
+    background-color: none;
+  }
