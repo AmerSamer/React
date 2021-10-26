@@ -1,5 +1,5 @@
 import React from "react";
-
+import Spinner from "./Spinner";
 const Algolia = () => {
     const [subject, setSubject] = React.useState("hooks");
     const [search , setSearch] = React.useState('');
@@ -27,8 +27,8 @@ const Algolia = () => {
             <br/>
             {
                subjectsList ? subjectsList.map((s,index)=>{
-                    return <p key={index}><a key={s.objectId} href={s.url}>{s.title}</a></p>
-                }) : 'loading'
+                    return <p key={index}><li><a key={s.objectId} href={s.url}>{s.title}</a></li></p>
+                }) : <Spinner />
             }
         </div>
     )
