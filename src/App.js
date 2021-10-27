@@ -30,7 +30,7 @@ import React from 'react';
 // import Data from './components/13.1-react-data-messaging/Data';
 // import Avatar from './components/13.2-avatar/Avatar';
 
-import Crud from './components/17.1-crud_mini_project/Crud';
+// import Crud from './components/17.1-crud_mini_project/Crud';
 
 // import Parent from './components/18.1-text/Parent';
 // import Todo from './components/18.2-simple_todo/Todo';
@@ -39,7 +39,7 @@ import Crud from './components/17.1-crud_mini_project/Crud';
 // import SimpleFetch from './components/19.1-simple_fetch/SimpleFetch';
 // import CountriesWorld from './components/19.2-countries/CountriesWorld';
 // import Algolia from './components/Algolia/Algolia'
-
+// import Users from './components/test/Users';
 function App() {
   return (
     <div>
@@ -77,7 +77,8 @@ function App() {
       {/* < SimpleFetch/> */}
       {/* <CountriesWorld/> */}
       {/* <Algolia /> */}
-      <Crud />
+      {/* <Crud /> */}
+      {/* <Users /> */}
     </div>
   )
 }
