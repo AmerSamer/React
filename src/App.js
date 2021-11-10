@@ -25,7 +25,7 @@ import React from 'react';
 // import CheckBox from "./components/11.2-checkBox/CheckBox";
 // import NameForm from "./components/11.3-form_Review/Form";
 
-// import ChuckNorris from "./components/12.1-chuck_norris/ChuckNorris";
+import ChuckNorris from "./components/12.1-chuck_norris/ChuckNorris";
 
 // import Data from './components/13.1-react-data-messaging/Data';
 // import Avatar from './components/13.2-avatar/Avatar';
@@ -64,7 +64,7 @@ function App() {
       <BoxAnimation size='30px'/> */}
       {/* <ChangeBox /> */}
       {/* <Spinner message='Loading...'/> */}
-      {/* <ChuckNorris /> */}
+      <ChuckNorris />
       
       {/* <ParentColor /> */}
       {/* <CheckBox /> */}

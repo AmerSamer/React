@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-
+// const {REACT_APP_URL_NORRIS} = process.env;
 class ChuckNorris extends React.Component {
     constructor(props) {
         super(props);
@@ -8,7 +8,7 @@ class ChuckNorris extends React.Component {
         this.state = {totalReactPackages: '' }
     }
     onc = async ()=>{
-        const response = await fetch('https://api.chucknorris.io/jokes/random');
+        const response = await fetch(`${process.env.REACT_APP_URL_NORRIS}`);
         const data = await response.json();
         this.setState({ totalReactPackages: data.value })
     }
